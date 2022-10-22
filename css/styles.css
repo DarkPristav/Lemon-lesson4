@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(124.53deg, #FC3F5F 0%, #7D61FF 100.32%);
+    padding: 95px;
+}
+
+.container {
+    background: linear-gradient(180deg, rgba(43, 34, 21, 0.8) -1.22%, #22282E 101.33%);
+    box-shadow: 0px 0px 250px rgba(0, 0, 0, 0.3);
+    border-radius: 32px;
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+/* Header   Block */
+.header {
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+   min-width: 180px;
+}
+
+.header-nav ul{
+    padding-left: 0;
+    display: flex;
+    gap: 64px;
+}
+
+.header-nav li {
+    list-style: none;
+}
+
+.header-nav a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #A0A3A7;
+    text-decoration: none;  
+}
+
+.header-dwn {
+    min-width: 180px;
+    text-align: right;
+}
+
+.header-btn {
+    display: inline-block;
+    padding: 16px 24px;
+    background: linear-gradient(93.22deg, #E1E1E1 8.37%, #FFFFFF 99.95%);
+    box-shadow: 0px 4px 50px rgba(37, 37, 37, 0.08), inset 1px 1px 1px rgba(135, 135, 135, 0.32);
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #24282E;
+    text-decoration: none;
+}
+/* Header   Block End*/
+
+/* Main Block */
+.main {
+    text-align: center;
+    padding: 180px 20px 161px 20px;
+}
+
+.main-title {
+    margin: 0;
+    max-width: 600px;
+    width: 100%;
+    margin-inline: auto;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.5;
+    color: #F2F4F7;
+    margin-bottom: 32px;
+}
+
+.main-text {
+    max-width: 600px;
+    width: 100%;
+    margin-inline: auto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #F2F4F7; 
+    margin-bottom: 80px;
+}
+
+.main-btn {
+    display: inline-block;
+    border: 2px solid #FC40F4;
+    border-radius: 999px;
+    padding: 16px 94px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color:#FC40F4;
+    text-decoration: none;
+    margin-bottom: 64px;
+}
+
+.main-icons {
+    display: flex;
+    padding: 16px;
+    gap: 32px;
+    justify-content: center;
+}
+/* Main Block End*/
